@@ -1,0 +1,353 @@
+body
+{
+	width: auto;
+	max-width: 700px;
+	margin: auto;
+	font-family: "trebuchet ms","Arial", sans-serif;
+}
+
+.bloc
+{	
+	
+	border: 2px black solid;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+h1
+{
+	color: black;
+}
+
+section
+{
+	text-align: justify;
+	font-size: 0.7em;
+	color: rgb(74,74,74);
+}
+
+
+
+/*-- Titre --*/
+
+.prenom
+{
+	color: rgb(254,202,8);
+}
+
+
+.develo
+{
+	border-bottom: 2px rgb(254,202,8) solid;
+}
+
+.titre h1
+{
+	font-weight: normal;
+}
+
+/*-- Corps --*/
+
+main
+{
+	flex: 2.8;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+
+main section h1
+{
+	border-bottom: 2px rgb(254,202,8) solid;
+	height: 1.5em;
+}
+
+main article
+{
+	display: flex;
+}
+
+main section h1
+{
+
+}
+
+.date
+{
+	flex: 1;
+	margin-right: 10px;
+}
+
+.element
+{
+	flex: 2.5;
+}
+
+article ul
+{
+	list-style: none;
+}
+
+article li::before
+{
+	content: "•"; 
+	color: rgb(254,202,8);
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.recommandation article
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.reco2
+{
+	padding-right: 70px;
+}
+
+h1 i
+{
+	color: rgb(254,202,8);
+}
+
+/*-- Bandeau--*/
+
+.bandeau
+{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(254,202,8);
+
+}
+
+.bandeau .picture
+{
+	text-align: center;
+}
+
+.photo_ahmed
+{
+	border: 2px black solid;
+	border-radius: 100px;
+	height: 120px;
+	width: 120px;
+}
+
+.bandeau h1
+{
+	text-align: center;
+	background-color: rgb(64,64,64);
+	color: rgb(254,202,8);
+}
+
+.bandeau p
+{
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.loisirs i
+{
+	font-size: 2em;
+}
+
+.loisirs p
+{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+@media all and (max-width: 1024px)
+{
+	body
+	{
+		width: auto;
+	}
+	 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.bloc
+{
+	border: 2px grey solid;
+	width: 600px;
+	margin: auto;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	font-family: "trebuchet ms","Arial", sans-serif;
+	color: rgb(74,74,74);
+}
+
+h1, h2
+{
+	text-transform: uppercase;
+}
+
+
+.prenom
+{
+	color: rgb(254,202,8);
+}
+
+.develo
+{
+	border-bottom: 2px rgb(254,202,8) solid;
+}
+
+.titre
+{
+	height: 120px;
+
+}
+
+.titre h1
+{
+	font-weight: normal;
+}
+
+main
+{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+main section h1
+{
+	border-bottom: 2px rgb(254,202,8) solid;
+	font-size: 1em;
+	height: 2em;
+}
+
+main article
+{
+	display: flex;
+}
+
+main i
+{
+	color: rgb(254,202,8);
+}
+
+
+section article
+{
+	font-size: 0.6em;
+}
+
+
+article ul
+{
+	list-style: none;
+}
+
+article li::before
+{
+	content: "•"; 
+	color: rgb(254,202,8);
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.date
+{
+	width: 100%;
+}
+
+.recommandation article
+{
+	justify-content: space-between;
+	margin-bottom: 30px;
+	
+}
+
+.bandeau
+{
+	width: 400px;
+	background-color: rgb(254,202,8);
+	text-align: justify;
+}
+
+.photo_ahmed
+{
+	height: 120px;
+	border-radius: 100px;
+	border: 2px rgb(254,202,8) solid;
+}
+
+.bandeau h1
+{
+	text-align: center;
+	background-color: rgb(64,64,64);
+	color: rgb(254,202,8);
+	height: 1.5em;
+	font-size: 1.5em;
+	padding-bottom: 3px;
+	
+}
+
+.bandeau p
+{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.loisirs p
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.apropos
+{
+	height: 450px;
+}
+
+
+
+
+
+
+
+
+
