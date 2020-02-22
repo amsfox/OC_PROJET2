@@ -1,7 +1,6 @@
 body
 {
-	width: auto;
-	max-width: 700px;
+	width: 700px;
 	margin: auto;
 	font-family: "trebuchet ms","Arial", sans-serif;
 }
@@ -25,8 +24,6 @@ section
 	font-size: 0.7em;
 	color: rgb(74,74,74);
 }
-
-
 
 /*-- Titre --*/
 
@@ -65,11 +62,6 @@ main section h1
 main article
 {
 	display: flex;
-}
-
-main section h1
-{
-
 }
 
 .date
@@ -164,7 +156,7 @@ h1 i
 }
 
 /*-- responsive --*/
-@media all and (max-width: 1024px)
+@media all and (max-width: 768px)
 {
 	body
 	{
@@ -173,181 +165,22 @@ h1 i
 	 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.bloc
+@media all and (max-width: 415px) and (orientation: portrait)
 {
-	border: 2px grey solid;
-	width: 600px;
-	margin: auto;
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
-	font-family: "trebuchet ms","Arial", sans-serif;
-	color: rgb(74,74,74);
+	.bloc
+	{
+		width: auto;
+		flex-direction: column-reverse;
+	}
+
+	.reco2
+	{
+		padding-right: 5px;
+	}
+
+	main
+	{
+		padding-left: 5px;
+		padding-right: 5px;
+	}	 
 }
-
-h1, h2
-{
-	text-transform: uppercase;
-}
-
-
-.prenom
-{
-	color: rgb(254,202,8);
-}
-
-.develo
-{
-	border-bottom: 2px rgb(254,202,8) solid;
-}
-
-.titre
-{
-	height: 120px;
-
-}
-
-.titre h1
-{
-	font-weight: normal;
-}
-
-main
-{
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
-main section h1
-{
-	border-bottom: 2px rgb(254,202,8) solid;
-	font-size: 1em;
-	height: 2em;
-}
-
-main article
-{
-	display: flex;
-}
-
-main i
-{
-	color: rgb(254,202,8);
-}
-
-
-section article
-{
-	font-size: 0.6em;
-}
-
-
-article ul
-{
-	list-style: none;
-}
-
-article li::before
-{
-	content: "•"; 
-	color: rgb(254,202,8);
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
-}
-
-.date
-{
-	width: 100%;
-}
-
-.recommandation article
-{
-	justify-content: space-between;
-	margin-bottom: 30px;
-	
-}
-
-.bandeau
-{
-	width: 400px;
-	background-color: rgb(254,202,8);
-	text-align: justify;
-}
-
-.photo_ahmed
-{
-	height: 120px;
-	border-radius: 100px;
-	border: 2px rgb(254,202,8) solid;
-}
-
-.bandeau h1
-{
-	text-align: center;
-	background-color: rgb(64,64,64);
-	color: rgb(254,202,8);
-	height: 1.5em;
-	font-size: 1.5em;
-	padding-bottom: 3px;
-	
-}
-
-.bandeau p
-{
-	padding-right: 30px;
-	padding-left: 30px;
-}
-
-.loisirs p
-{
-	display: flex;
-	justify-content: space-between;
-}
-
-
-.apropos
-{
-	height: 450px;
-}
-
-
-
-
-
-
-
-
-
